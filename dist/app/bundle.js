@@ -229,6 +229,66 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/app/componants/ContactCard.js":
+/*!*******************************************!*\
+  !*** ./src/app/componants/ContactCard.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction ContactCard(props) {\n    return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement('img', { src: props.contacts.image }),\n        _react2.default.createElement(\n            'h1',\n            null,\n            props.contacts.name\n        ),\n        _react2.default.createElement(\n            'h3',\n            null,\n            props.contacts.city\n        )\n    );\n}\n\n//# sourceURL=webpack:///./src/app/componants/ContactCard.js?");
+
+/***/ }),
+
+/***/ "./src/app/componants/Footer.js":
+/*!**************************************!*\
+  !*** ./src/app/componants/Footer.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Footer() {\n    return _react2.default.createElement(\n        'footer',\n        null,\n        _react2.default.createElement(\n            'p',\n            null,\n            'This is footer'\n        )\n    );\n}\n\nexports.default = Footer;\n\n//# sourceURL=webpack:///./src/app/componants/Footer.js?");
+
+/***/ }),
+
+/***/ "./src/app/componants/Header.js":
+/*!**************************************!*\
+  !*** ./src/app/componants/Header.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Header() {\n    return _react2.default.createElement(\n        \"header\",\n        { className: \"header\" },\n        _react2.default.createElement(\n            \"nav\",\n            { className: \"navbar\" },\n            _react2.default.createElement(\n                \"ul\",\n                null,\n                _react2.default.createElement(\n                    \"li\",\n                    null,\n                    _react2.default.createElement(\n                        \"a\",\n                        { href: \"\" },\n                        \"Home\"\n                    )\n                ),\n                _react2.default.createElement(\n                    \"li\",\n                    null,\n                    _react2.default.createElement(\n                        \"a\",\n                        { href: \"\" },\n                        \"About\"\n                    )\n                ),\n                _react2.default.createElement(\n                    \"li\",\n                    null,\n                    _react2.default.createElement(\n                        \"a\",\n                        { href: \"\" },\n                        \"Contact\"\n                    )\n                )\n            )\n        )\n    );\n}\n\nexports.default = Header;\n\n//# sourceURL=webpack:///./src/app/componants/Header.js?");
+
+/***/ }),
+
+/***/ "./src/app/componants/MainContent.js":
+/*!*******************************************!*\
+  !*** ./src/app/componants/MainContent.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _ContactCard = __webpack_require__(/*! ./ContactCard */ \"./src/app/componants/ContactCard.js\");\n\nvar _ContactCard2 = _interopRequireDefault(_ContactCard);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction MainContent() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(_ContactCard2.default, { contacts: { name: \"Mayur Thosar\", image: \"https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg\", city: \"Thane\" } }),\n    _react2.default.createElement(_ContactCard2.default, { contacts: { name: \"Raj shukla\", image: \"https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg\", city: \"Mumbai\" } }),\n    _react2.default.createElement(_ContactCard2.default, { contacts: { name: \"jitendra Vaishnav\", image: \"https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg\", city: \"Kalyan\" } }),\n    _react2.default.createElement(_ContactCard2.default, { contacts: { name: \"Mayur Thosar\", image: \"https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg\", city: \"Thane\" } })\n  );\n}\n\nexports.default = MainContent;\n\n//# sourceURL=webpack:///./src/app/componants/MainContent.js?");
+
+/***/ }),
+
+/***/ "./src/app/componants/MyApp.js":
+/*!*************************************!*\
+  !*** ./src/app/componants/MyApp.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Header = __webpack_require__(/*! ./Header */ \"./src/app/componants/Header.js\");\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nvar _MainContent = __webpack_require__(/*! ./MainContent */ \"./src/app/componants/MainContent.js\");\n\nvar _MainContent2 = _interopRequireDefault(_MainContent);\n\nvar _Footer = __webpack_require__(/*! ./Footer */ \"./src/app/componants/Footer.js\");\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//<Header /> Loads the header componant\n//<MainContent /> Loads the main content componant \n//<Footer /> Loads the footer   \n\nfunction MyApp() {\n    return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(_Header2.default, null),\n        _react2.default.createElement(_MainContent2.default, null),\n        _react2.default.createElement(_Footer2.default, null)\n    );\n}\n\nexports.default = MyApp;\n\n//# sourceURL=webpack:///./src/app/componants/MyApp.js?");
+
+/***/ }),
+
 /***/ "./src/app/index.js":
 /*!**************************!*\
   !*** ./src/app/index.js ***!
@@ -237,7 +297,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(\n  'h1',\n  null,\n  'Hello world!'\n), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/app/index.js?");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _MyApp = __webpack_require__(/*! ./componants/MyApp */ \"./src/app/componants/MyApp.js\");\n\nvar _MyApp2 = _interopRequireDefault(_MyApp);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//Importing main componant from componants folder\n\n//JSX uses psudo styling \n\n_reactDom2.default.render(_react2.default.createElement(_MyApp2.default, null), document.getElementById('root')); //React render accepts 2 paramete first what to dispay , second where to display\n\n//# sourceURL=webpack:///./src/app/index.js?");
 
 /***/ })
 

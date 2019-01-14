@@ -9,25 +9,6 @@ import Footer from './Footer';
 
 function MyApp()
 {
-    const date = new Date(2019,1,14,15);
-    const hours= date.getHours();
-    let timeOfDay;
-    const styles = {
-        fontSize:30
-    }
-
-    if(hours < 12)
-    {
-        timeOfDay = "morning"; 
-    }
-    else if(hours >= 12 && hours <= 17)
-    {
-        timeOfDay = "Afternoon"
-    }
-    else
-    {
-        timeOfDay = "Night";
-    }
     return (
         <div>
             <Header />  
