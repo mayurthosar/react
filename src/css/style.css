@@ -1,0 +1,17 @@
+.header{
+    background-color: slateblue;
+    height:50px;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+    width:70px;
+    display: inline-block;
+    text-decoration:none
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}

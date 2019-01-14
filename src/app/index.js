@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyInfo from './componants/MyInfo';
+import MyApp from './componants/MyApp';  //Importing main componant from componants folder
 
 //JSX uses psudo styling 
 
-ReactDOM.render(<MyInfo />,document.getElementById('root'));
+ReactDOM.render(<MyApp />,document.getElementById('root'));  //React render accepts 2 paramete first what to dispay , second where to display
